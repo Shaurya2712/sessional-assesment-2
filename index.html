@@ -22,69 +22,9 @@
     "
   >
     <!-- nav bar start -->
-    <!-- <nav
-      class="navbar navbar-expand-lg sticky-top"
-      style="background-color: #ffb5a7"
-    >
-      <div class="container-fluid">
-        <img
-          src="./images/BLOG.png"
-          alt=""
-          style="width: 100px"
-          height="auto"
-        />
-        <button
-          class="navbar-toggler btn btn-outline-dark"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-           
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            fill="currentColor"
-            class="bi bi-list"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-            />
-          </svg>
-        </button>
-        <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo02">
-          <ul
-            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end"
-          >
-            <li class="nav-item">
-              <a class="nav-link text-dark fs-4" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark fs-4" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-dark fs-4"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
 
     <div
-      class="container-fluid border border-danger py-3 sticky-top"
+      class="container-fluid py-3 sticky-top"
       style="background-color: #ffb5a7"
     >
       <ul class="nav justify-content-around">
@@ -116,17 +56,24 @@
     </div>
     <!-- -------------------------------------------------------------------------- -->
     <!-- body main starts -->
+    <div class="border mx-5 my-5 border-dark bg-dark"></div>
     <div class="container">
-      <div id="my-container" style="display: flex; flex-wrap: wrap"></div>
+      <div class="row">
+        <button
+          type="button"
+          class="btn bg-transparent border border-dark border-3 fs-4 mx-auto w-auto"
+          id="btn"
+        >
+          GET BLOGS
+        </button>
+        <div class="row" id="cardDiv"></div>
+      </div>
     </div>
 
     <!-- body main ends -->
     <!-- Footer starts -->
-    <div
-      class="card text-center fixed-bottom"
-      style="background-color: #fec89a"
-    >
-      <div class="card-body mb-2">
+    <div class="text-center mt-5" style="background-color: #fec89a">
+      <div class="card-body pb-4">
         <h5 class="card-title mb-3">CONTACT ME</h5>
         <button type="button" class="btn btn-outline-dark mx-2">
           <svg

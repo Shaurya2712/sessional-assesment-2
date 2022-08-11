@@ -21,12 +21,11 @@
     "
   >
     <!-- nav bar start -->
-    <nav
+    <!-- <nav
       class="navbar navbar-expand-lg sticky-top"
       style="background-color: #ffb5a7"
     >
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <img
           src="./images/BLOG.png"
           alt=""
@@ -42,7 +41,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <!-- <span class="navbar-toggler-icon">MENU</span> -->
+           
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -57,8 +56,10 @@
             />
           </svg>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo02">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end"
+          >
             <li class="nav-item">
               <a class="nav-link text-dark fs-4" aria-current="page" href="#"
                 >Home</a
@@ -77,34 +78,43 @@
               >
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-dark" type="submit">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                />
-              </svg>
-            </button>
-          </form>
         </div>
       </div>
-    </nav>
+    </nav> -->
+
+    <div class="container-fluid border border-danger py-3 sticky-top">
+      <ul class="nav justify-content-center">
+        <li class="nav-item mx-3 fs-3">
+          <a class="text-dark" href="#">Active</a>
+        </li>
+        <li class="nav-item mx-3 fs-3">
+          <a class="text-dark" href="#">Link</a>
+        </li>
+        <li class="nav-item mx-3 fs-3">
+          <a class="text-dark" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+
     <!-- nav bar ends -->
+    <div class="container d-flex justify-content-center">
+      <img
+        class=""
+        src="./images/BLOG.png"
+        alt="image of website"
+        style="width: 100px"
+      />
+    </div>
+    <div class="d-flex justify-content-center">
+      <h1 class="fs-3">
+        This is "<span class="auto-type-about text-danger"></span>"!
+      </h1>
+    </div>
     <!-- -------------------------------------------------------------------------- -->
     <!-- body main starts -->
+    <div class="container">
+      <div id="my-container" style="display: flex; flex-wrap: wrap"></div>
+    </div>
 
     <!-- body main ends -->
     <!-- Footer starts -->
@@ -179,6 +189,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./main.js"></script>
     <!-- Bootstrap JS ends -->
   </body>
 </html>

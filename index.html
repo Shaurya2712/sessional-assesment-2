@@ -12,7 +12,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link src="./styles.css" />
+    <link src="./styles.css" rel="stylesheet" />
 
     <title>shaurya blog</title>
   </head>
@@ -21,10 +21,22 @@
       background-image: linear-gradient(to bottom, #fcd5ce, #f8edeb, #f9dcc4);
     "
   >
-    <!-- nav bar start -->
+    <!-- <div
+      id="preloader"
+      style="
+        background: #000 url(/images/preloader.gif) no-repeat center center;
+         
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+      "
+    ></div> -->
+
+    <!-- nav bar start-->
 
     <div
-      class="container-fluid py-3 fixed-top"
+      class="container-fluid py-3 position-fixed"
       style="background-color: #ffb5a7"
     >
       <ul class="nav justify-content-around">
@@ -100,7 +112,7 @@
     </div>
 
     <!-- body main ends -->
-    <div class="container fixed-bottom d-flex justify-content-end mb-5 me-5">
+    <div class="container fixed-bottom d-flex justify-content-end mb-5">
       <button class="bg-transparent border-3 rounded-pill">
         <a href="#" class="text-dark">
           <svg
